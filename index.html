@@ -7,9 +7,17 @@
   <title>Rudolph Drake Funeral Program</title>
   <link rel="stylesheet" href="stylesheet/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>.head{
+      background-image: url(flowers.jpg) ;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+      
+    </style>
 </head>
 <body>
- <header  >
+ <header class="head" >
         <i class="fa-solid fa-dove"></i>
     <h2>Celebrating the Life of Rudolph Drake</h2>
     <i class="fa-solid fa-dove"></i>
@@ -20,14 +28,27 @@
     <a href="order.html" >Order of Service</a>
     <a href="hymns.html" >Hymns</a>
   </nav>
+ 
   <section class="man">
-    <img src="">
+    <img class="img" src="man.jpeg">
     <h1>Celebrating the Life of Rudolph Drake</h1>
      <span>A life well Lived</span>
     
 <p>September 14, 1939 - February 6, 2026</p>
     <p>New Testament Church of God - St Ann's Bay April 04, 2026 @ 11:00 AM</p>
   </section>
+<section id="tribute-wall">
+    <h2>Tribute Wall</h2>
+    <p>leave condolence messages, memories, and stories.</p>
+    <form id="tribute-form">
+        <input type="text" id="name" placeholder="Your Name">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button id="submit-tribute">Submit</button>
+    </form>
+    <div id="tribute-messages">
+        <!-- Tribute messages will appear here -->
+    </div>
+</section>
 
  
 <section class="button"> <a href="Bowla Funeral Program.pdf" class="download-btn" download>Download PDF Program</a></section>
@@ -38,5 +59,7 @@
 
    <p>&copy 2026 ElliswebS. All rights Reserved</p>
 </footer>
+
+<script src="java.js" ></script>
 </body>
 </html>
