@@ -5,26 +5,22 @@ body {
   color: #333;
 }
 header {
-  background: rgb(142, 216, 245);
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
-  display: flex;
-  justify-content:space-around;
+ padding: 50px;
 }
 header i{
     padding-top: 53px;
 }
 header h2{
     margin-top: 50px;
-    color: #0f044f;
+    color: #000000;
     font-weight: 900;
     font-size: 20px;
+    display: none;
 }
 nav {
   display: flex;
   justify-content: center;
-  background: rgb(4, 50, 68);
+  
   
 }
 nav a {
@@ -34,7 +30,7 @@ nav a {
   padding 0 0;
   text-decoration: none;
   color: #fff;
-  background:  rgb(4, 47, 65);
+  background:  rgb(105, 186, 239);
   border: 1px solid white;
   font-weight: 600;
 }
@@ -92,7 +88,7 @@ nav a.active {
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   box-shadow: 6px 24px 44px 0px rgba(0,0,0,0.18);
+   box-shadow: 6px 24px 44px 0px rgba(0,0,0,0.12);
 -webkit-box-shadow: 6px 24px 44px 0px rgba(0,0,0,0.18);
 -moz-box-shadow: 6px 24px 44px 0px rgba(0,0,0,0.18);
 
@@ -222,9 +218,9 @@ padding: 0.5rem;
     }
     img{
       height: 400px;
-      box-shadow: -3px 16px 19px 1px rgba(0,0,0,0.75);
+      /* box-shadow: -3px 16px 19px 1px rgba(0,0,0,0.75);
 -webkit-box-shadow: -3px 16px 19px 1px rgba(0,0,0,0.75);
--moz-box-shadow: -3px 16px 19px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 16px 19px 1px rgba(0,0,0,0.75); */
       
      
       
@@ -389,6 +385,77 @@ padding: 0.5rem;
         border-radius: 4px;
       }
     }
+
+
+    #tribute-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#tribute-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#tribute-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.tribute-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-size: 18px;
+  font-style: italic;
+  padding: 20px;
+  border-left: 5px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  #tribute-section {
+    padding: 10px;
+  }
+  #tribute-section h2 {
+    font-size: 24px;
+  }
+  #tribute-section p {
+    font-size: 16px;
+  }
+  .tribute-text {
+    font-size: 14px;
+  }
+  blockquote {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  #tribute-section {
+    padding: 5px;
+  }
+  #tribute-section h2 {
+    font-size: 18px;
+  }
+  #tribute-section p {
+    font-size: 14px;
+  }
+  .tribute-text {
+    font-size: 12px;
+  }
+  blockquote {
+    font-size: 14px;
+  }
+}
 
 
    
